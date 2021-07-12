@@ -250,9 +250,9 @@
 		-- color for model visibility and brush
 		color = ui_scalarBox("Color_"..i,6,1)
 		--granule size 
-		p_size = ui_scalarBox("Granular Size_"..i,0.1,0.1)
+		p_size = ui_scalarBox("Grain Number_"..i,0.1,0.1)
 		--pore width
-		p_width = ui_scalarBox("Pore width_"..i,0.8,0.1)
+		p_width = ui_scalarBox("Infill_"..i,0.8,0.1)
 
 		--shape translation
 		p_t_x = ui_number("Form Translate x_"..i,0,-100,100)
